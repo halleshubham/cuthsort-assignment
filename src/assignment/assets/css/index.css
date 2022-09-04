@@ -1,0 +1,167 @@
+
+body {
+  margin: 0;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+}
+
+html {
+  height: 100%;
+}
+
+.App {
+  height:100%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.header-content {
+  margin: 10%;
+  text-align: center;
+  letter-spacing: -0.07em;
+  font-weight: bold;
+}
+
+.container-md {
+  background-color: white;
+  box-shadow: 0px 0px 2px rgba(0,0,0, 0.05);
+  border-radius: 0.1em;
+  height: 100%;
+}
+
+#root {
+  background-color: #e8ecf4;
+  height: 100%;
+}
+
+.circle{
+  position: relative;
+  border-style: solid;
+  border-width: 0.1em;
+  width: 2.2em;
+  height: 2.2em;
+  border-radius: 50%;
+  line-height: 0;
+  left: 25%;
+  border-color:rgb(187, 187, 187);
+}
+
+.circle-text{
+  position: absolute;
+  top:50%;
+  width: 100%;
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.active {
+  color: white;
+  background-color: #664de5;
+  border-color: #664de5;
+}
+
+.userinfo-title {
+  text-align: center;
+}
+
+.userinfo-subtitle {
+  text-align: center;
+  color: #5c6984;
+}
+
+.btn-submit {
+  font-size: 0.9em !important;
+  background-color: #664de5 !important;
+  border: none !important;
+  /* border-radius: 0.2em; */
+  width: 100%;
+  padding: 0.9em !important;
+}
+
+
+.form-label {
+  font-size: 0.9em;
+}
+
+.form-control #formDisplayName {
+  font-size: 0.9em;
+}
+
+.btn-workspace {
+  width: 100%;
+  border:1px solid rgba(0,0,0, 0.05) !important;
+  text-align: left !important;
+  padding: 8% !important;
+}
+
+.btn-workspace:focus,
+.btn-workspace.focus,
+.btn-workspace:hover,
+.btn-workspace.hover,
+.btn-workspace:active,
+.btn-workspace.active {
+  width: 100%;
+  border:1px solid #664de5 !important;
+  background-color: #f8f9fa !important;
+}
+
+.btn-workspace:hover .hover-color, .btn-workspace.hover .hover-color, .btn-workspace:active .hover-color, .btn-workspace.active .hover-color {
+  color:#664de5;
+}
+
+.workspace-type-container{
+  height: 40%;
+}
+
+.h-95{
+  height:95%
+}
+
+.btn-container {
+  padding:3% !important;
+}
+
+.h-100{
+  height: 100%;
+}
+
+.h-90{
+  height: 90%
+}
+
+.h-75{
+  height: 75%;
+}
+
+.btn-title{
+  margin-top: 1%;
+  font-weight: bold;
+  margin:5%
+}
+
+.btn-subtitle {
+  color: #5c6984;
+  font-size: 0.9em;
+  margin:5%;
+  margin-bottom:8%;
+}
+
+.hover-color{
+  margin:5%
+} 
+
+.icon-container{
+  text-align: center;
+  padding:3%;
+}
+
+.step-strip{
+  margin-bottom: 3%;
+}
