@@ -16,9 +16,13 @@ export default function Launcher(){
                 </Row>
                 <SubjectTitle title={"Congratulations, Eren!"} subtitle={"You have completed onboarding, You can start using the Eden!"} />
                 <Row>
+                <Col md={4}></Col>
+                <Col>
                     <Form.Group>
                         <Button className="btn-submit" onClick={handleSubmit}>Create Workspace</Button>
                     </Form.Group>
+                </Col>
+                <Col md={4}></Col>
                 </Row>
     </>
 }
