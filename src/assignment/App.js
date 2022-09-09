@@ -1,4 +1,4 @@
-import { Container } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import './assets/css/App.css';
 import Header from './components/Header';
 import Main from './components/Main';
@@ -9,8 +9,10 @@ function App() {
     <OnboardingProvider>
     <div className="App">
       <Container fluid="md">
+        <Row className='inner-container align-middle'>
         <Header />
         <Main />
+        </Row>
       </Container>
       </div>
     </OnboardingProvider>
