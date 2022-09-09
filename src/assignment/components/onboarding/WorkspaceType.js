@@ -32,20 +32,22 @@ export default function WorkspaceType(){
                     <Row>
                     <Form.Group className="mb-3 h-75" controlId="fromDisplayName">
                         <InputGroup className="mb-3 h-100">
-                        <Col md={6} className="btn-container">
+                        <Row>
+                        <Col md={6} xs={6} sm={6} className="btn-container">
                             <Button variant="light" className="btn-workspace" onClick={()=>setWorkspaceType("personal")}>
                                 <PersonFill size={30} className="hover-color"/><br/>
                                 <div className="btn-title">For myself</div>
                                 <div className="btn-subtitle">Write better. Think more clearly. Stay organized.</div>
                             </Button>
                         </Col> 
-                        <Col md={6} className="btn-container">
+                        <Col md={6} xs={6} sm={6} className="btn-container">
                             <Button variant="light" className="btn-workspace" onClick={()=>setWorkspaceType("team")}>
                             <PeopleFill size={30} className="hover-color"/><br/>
                                 <div className="btn-title">With my Team</div>
                                 <div className="btn-subtitle">Wikis, docs, tasks &amp; projects all in one place.</div>
                             </Button>
                         </Col> 
+                        </Row>
                         </InputGroup>
                     </Form.Group>
                     </Row>
